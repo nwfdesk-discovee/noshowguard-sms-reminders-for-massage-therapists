@@ -1,0 +1,7 @@
+{
+  "title": "Massage Therapist Appointment Reminder",
+  "description": "A simple tool that sends automated SMS appointment reminders to massage/bodywork clients 24 hours before their session, reducing no-shows.",
+  "rationale": "Solo massage therapists lose significant income to last-minute no-shows and forgotten appointments.",
+  "trade": "Massage/Bodywork",
+  "focus": "Scheduling"
+}

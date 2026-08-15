@@ -1,0 +1,28 @@
+{
+  "components": [
+    {
+      "name": "Therapist Interface",
+      "responsibility": "Allows massage therapists to input client information and preferences, customize reminder templates, and view appointment history."
+    },
+    {
+      "name": "Reminder System",
+      "responsibility": "Sends automated SMS reminders 24 hours before scheduled sessions, utilizing template preferences set by the therapist."
+    },
+    {
+      "name": "Integration Module",
+      "responsibility": "Connects with existing calendar/scheduling software to sync appointments and minimize data entry for therapists."
+    },
+    {
+      "name": "Reporting Engine",
+      "responsibility": "Generates reports on no-shows, appointment history, and system usage to help therapists evaluate the impact of automated reminders."
+    }
+  ],
+  "data_flow": "The Therapist Interface component captures client information and reminder preferences from massage/bodywork solo practitioners. This data is then passed to the Reminder System which sends automated SMS messages 24 hours before sessions. The Integration Module ensures seamless communication with a therapist's existing calendar/scheduling software, keeping appointments up-to-date. The Reporting Engine analyzes system usage, no-show rates, and appointment history to provide valuable insights for therapists.",
+  "interfaces": [
+    "Therapist Interface -> Reminder System: Client information and reminder preferences",
+    "Reminder System -> SMS Provider: Appointment data for automated messaging",
+    "Integration Module -> Existing Software (e.g., Google Calendar): Appointment sync functionality",
+    "Reporting Engine -> Therapist Interface: No-show and appointment history reports"
+  ],
+  "tradeoffs": "While enhancing the user experience with an easy-to-use interface, the system also requires careful consideration of SMS costs and template customization to avoid overwhelming clients. The integration capabilities aim to balance ease-of-setup with comprehensive support for popular scheduling software, though some therapists may have unique requirements not covered by standard integrations."
+}

@@ -1,0 +1,20 @@
+{
+  "trade": "Massage/Bodywork",
+  "focus": "Scheduling",
+  "title": "Massage Therapist Appointment Reminder",
+  "problem_statement": "Solo massage therapists lose significant income to last-minute no-shows and forgotten appointments. The tool must automate SMS reminders for clients to reduce missed sessions.",
+  "target_user": "Massage/bodywork solo practitioners looking to minimize no-shows and maximize appointment attendance",
+  "core_requirements": [
+    "Automated SMS reminder system triggered 24 hours before session time",
+    "User-friendly interface for therapists to input client information and preferences",
+    "Template customization options for reminder messages",
+    "Integration with existing calendar/scheduling software (if applicable)",
+    "Reporting feature to track no-shows and appointment history"
+  ],
+  "success_criteria": [
+    "Reduction in no-show appointments by at least 30%",
+    "Positive feedback from therapists using the system",
+    "Easy setup process with minimal training required",
+    "Integration capabilities meet or exceed market standards"
+  ]
+}
