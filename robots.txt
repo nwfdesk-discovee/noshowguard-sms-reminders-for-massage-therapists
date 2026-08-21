@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nwfdesk-discovee.github.io/noshowguard-sms-reminders-for-massage-therapists/sitemap.xml
